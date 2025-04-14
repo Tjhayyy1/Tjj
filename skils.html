@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Sports Skills</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .skills-section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      color: #0f172a;
+      margin-bottom: 1rem;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .skill-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .skill-card:hover {
+      transform: scale(1.05);
+    }
+
+    .skill-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .skill-card .content {
+      padding: 1rem;
+    }
+
+    .skill-card .content h3 {
+      margin: 0 0 0.5rem;
+      color: #0f172a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0f172a;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Sports Skills</h1>
+    <p>Exploring my favorite sports and what I love about them.</p>
+  </header>
+
+  <section class="skills-section">
+    <h2>Sports I'm Skilled At</h2>
+    <div class="skills-container">
+      <!-- Basketball -->
+      <div class="skill-card">
+        <img src="basketball.jpg" alt="Basketball">
+        <div class="content">
+          <h3>Basketball</h3>
+          <p>Great at shooting, dribbling, and teamwork. I love the energy of the game.</p>
+        </div>
+      </div>
+
+      <!-- Volleyball -->
+      <div class="skill-card">
+        <img src="volleyball.jpg" alt="Volleyball">
+        <div class="content">
+          <h3>Volleyball</h3>
+          <p>Quick reflexes and strong coordination. Spiking and blocking are my strengths.</p>
+        </div>
+      </div>
+
+      <!-- Badminton -->
+      <div class="skill-card">
+        <img src="bad.jpg" alt="Badminton">
+        <div class="content">
+          <h3>Badminton</h3>
+          <p>Fast movements and strategic smashes. I enjoy the 1v1 challenge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
